@@ -1,0 +1,22 @@
+.bloc1{ border: solid 1px; color: #666;}
+@media (max-width: 600px) {
+    .bloc1 {
+      background: pink;
+
+    }
+  }
+  .bloc2{ border: solid 1px; color: #666;}
+  @media (min-width: 900px) {
+    .bloc2 {
+      background:orange; }
+       }
+
+       .bloc3{ border: solid 1px; color: #666;}
+       @media (min-width:600px ) and (max-width:900px) {
+        .bloc3 {
+            background: blue;
+        }
+} 
+       
+       
+            
