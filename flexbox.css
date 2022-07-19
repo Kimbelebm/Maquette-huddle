@@ -1,0 +1,63 @@
+body{
+display: flex;
+justify-content: center;
+margin: 0%;
+flex-direction: column;
+content:
+
+}
+
+
+
+.a{
+    flex-basis: auto;
+    flex-grow: 15;
+    flex-direction: row;
+background: #1ABC9C
+
+
+
+
+}
+.b{
+    flex-basis: auto;
+    flex-grow: 15;
+background: #3498DB;
+
+}
+.c{
+    flex-basis: auto;
+    flex-grow: 15;
+background: #9B59B6;
+
+}
+.d{
+    flex-basis: auto;
+    flex-grow: 15;
+background: #E67E22;
+
+}
+.e{
+    flex-basis: auto;
+    flex-grow: 15;
+    background: #E74C3C;
+}
+.f{
+    flex-basis: auto;
+    flex-grow: 15;
+    background: #1ABC9C;
+
+}
+.g{flex-basis: auto;
+    flex-grow: 15;
+    background: #3498DB;
+
+}
+.h{
+    flex-basis: auto;
+    flex-grow: 15;
+    background: #9B59B6;
+
+
+}
+
