@@ -1,0 +1,109 @@
+body{
+    background: #9AA7BE;
+}
+.tout{
+border :  1px  white;
+width: 635px;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content:center ; */
+    border: 1px white;
+    
+    background-color: white;
+
+
+
+}
+.join{
+color:#2AB3B1 ;
+font-family: 'Karla',sans-serif;
+
+}
+.day{
+color: #C0DF33;
+font-family: 'Karla',sans-serif;
+
+}
+.gain{
+color: #9AA7BE;
+font-family: 'Karla',sans-serif;
+margin-bottom: 15px;
+
+}
+.container2{
+display: flex;
+/* justify-content: space-between; */
+
+border: 1px #2AB3B1;
+
+
+}
+.container3{
+    border :1px #2AB3B1;
+    background-color: #2AB3B1 ;
+    width: 50%;
+    box-sizing: border-box;
+   
+    padding: 25px;
+    
+}
+.monthly{
+    color: white;
+    font-family: 'Karla',sans-serif;
+}
+.prix{
+    color: white;
+    font-family: 'Karla',sans-serif;
+}
+
+.month{
+color: white;
+margin-left: 50px;
+margin-top:-43px;
+
+
+
+}
+.full{
+    color: white;
+    font-family: 'Karla',sans-serif;
+}
+.button{
+background-color: #C0DF33;
+border: none;
+width: 200px;
+height: 35px;
+margin-left: 20px;
+margin-bottom: 15px;
+
+}
+.container4{
+    border :1px #2BB3B1;
+    background-color: #2BB3B1;
+    width: 50%;
+    padding: 25px;
+    padding-right: 91.092px;
+    box-sizing: border-box;
+    
+
+    
+
+}
+.why{
+color: white;
+font-family: 'Karla',sans-serif;
+
+}
+
+.tuto{
+    font-family: 'Karla',sans-serif;
+    font-size: 15px;
+
+}
+
+
+
+

@@ -1,0 +1,22 @@
+@media(max-width:320px){
+    body {
+        display: flex;
+        flex-direction:column ;
+        justify-content: center;
+        height: 100vh;
+    }
+    
+    .tout{
+        width: 100%;
+
+
+    }
+    .container2{
+        display: block;
+
+
+    }
+    .container3,.container4{
+        width:100%
+    }
+ }
