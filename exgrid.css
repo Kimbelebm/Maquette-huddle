@@ -1,0 +1,68 @@
+body{
+padding: ;
+
+
+}
+
+.grid{
+display: grid;
+height: 100vh;
+grid-template-columns: 20% 58% 20%;
+grid-template-rows: 20% 68% 10%;
+grid-template-areas: "logo navigation navigation"
+"content content feat"
+"footer footer footer";
+
+
+
+
+}
+
+.logo{
+background-color: #a52a2a;
+grid-area: logo;
+
+
+
+}
+
+.navigation{
+background-color: #00f;
+grid-area:navigation ;
+
+
+}
+
+.content{
+grid-area: content;
+
+}
+.feature{
+background-color: #7fffd4;
+grid-area: feat;
+
+
+}
+.footer{
+background-color:  black;
+grid-area:footer ;
+
+
+}
+
+@media (max-width: 600px ){
+    .grid{
+        display: grid;
+        height: 100vh;
+        grid-template-columns: 100%;
+        grid-template-rows: 10% 5%  60% 20% 5%;
+        grid-template-areas: 
+        "logo" 
+        "navigation"
+        "content"  "feat"
+        "footer";
+
+
+
+}
+}
