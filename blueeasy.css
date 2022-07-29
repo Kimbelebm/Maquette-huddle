@@ -1,0 +1,425 @@
+.partie1{
+    background: white;
+    width: 100%;
+    /* border: 1px  solid black; */
+    font-family: 'Segoe UI','sans serif';
+    padding-bottom: 20px;
+
+
+}
+
+
+.ALL1{
+display: flex;
+justify-content: space-around;
+float: right;
+width : 700px;
+padding-top: 25px;
+
+}
+.Portfolio{
+margin-top: 100px;
+margin-left: 25px;
+border-bottom: 1px solid black;
+width: 18px;
+
+}
+
+
+.ALL{
+    border: 3px solid skyblue;
+padding: 1px;
+   margin-top: -3px;
+
+ }
+/* .PANORAMA{
+   
+}
+
+.PORTRAITS{
+   
+}
+
+.MACRO{
+
+
+}
+
+.JOURNAL{
+
+
+} */
+
+.images{
+    
+display: flex;
+flex-flow:wrap ;
+padding-left: 25px;
+padding-top: 90px;
+
+}
+
+.img1{
+margin-right: 50px;
+width: 250px;
+
+}
+
+.img2{
+margin-right: 50px;
+width: 250px;
+
+
+}
+.img3{
+    margin-right: 50px;
+    width: 250px;
+
+
+}
+.img4{
+    
+    width: 250px;
+
+
+
+
+}
+.img5{
+    margin-right: 50px;
+    width: 250px;
+    margin-top:20px;
+
+}
+
+.img6{
+    margin-right: 50px;
+    width: 250px;
+    margin-top:20px;
+
+
+}
+
+.img7{
+    margin-right: 50px;
+    width: 250px;
+    margin-top:20px;
+
+
+}
+.img8{
+  
+    width: 250px;
+    margin-top:20px;
+}
+
+.justcase{
+    background: #515F67;
+    width: 130%;
+    /* border: 1px  solid black; */
+    font-family: 'Segoe UI', 'sans serif';
+    color: white;
+ }
+
+
+.Just{
+margin-left: 70px;
+font-size: 25px;
+}
+.img9{
+float: right;
+margin-right: 900px;
+
+
+}
+
+
+span{
+    text-decoration:underline ;
+
+}
+
+.bear{
+margin-left:70px ;
+font-size: 10px;
+
+
+}
+.Visit{
+color: #39444B;
+    border: 2px solid#39444B;
+   width: 100px;
+   padding-left: 30px;
+margin-left: 70px;
+font-size: 17px;
+
+}
+
+.twitter{
+    background: #4BCAFF;
+    width: 100%;
+     border-bottom: 1px  solid black;
+    font-family: 'Segoe UI', 'sans serif';
+    color: white;
+    margin-left: 
+
+}
+
+.Twitter{
+margin-left: 70px;
+padding-top: 50px ;
+font-size: 25px;
+
+
+}
+.logo{
+margin-left: 38%;
+margin-top:-40px;
+
+
+
+
+}
+.Text{
+    margin-left: 70px;
+    margin-top: 50px;
+
+
+}
+
+.tootsie{
+    margin-top:-43px;
+margin-left: 169px;
+
+
+}
+ .ALL:hover, .PANORAMA:hover, .PORTRAITS:hover, .MACRO:hover , .JOURNAL:hover{
+    border: 3px solid skyblue;
+    padding: 1px;
+    cursor: pointer;
+
+
+
+
+ }
+ .Visit:hover{
+    border: 2px solid white;
+   
+    cursor: pointer;
+
+ }
+
+ /* responsive */
+
+ @media(max-width:600px) {
+
+    .partie1{
+        background: white;
+        width: 100%;
+        /* border: 1px  solid black; */
+        font-family: 'Segoe UI','sans serif';
+        padding-bottom: 20px;
+    
+    
+    }
+    
+    
+    .ALL1{
+    display: flex;
+    justify-content:space-around;
+    /* float: right; */
+    width : 476px;
+    padding-top: 25px;
+ 
+    
+    
+    }
+    .Portfolio{
+    margin-top: 100px;
+    margin-left: 190px;
+    border-bottom: 1px solid black;
+    width: 18px;
+    
+    
+    }
+    
+    
+    .ALL{
+        border: 3px solid skyblue;
+    padding: 1px;
+       margin-top: -3px;
+    
+     }
+     .images{
+    
+        display: flex;
+        flex-flow:wrap ;
+        padding-left: 95px;
+        padding-top: 90px;
+        justify-content:space-between ;
+        }
+        
+        .img1{
+        margin-right: 50px;
+        width: 100px;
+        margin-top:20px;
+        }
+        
+        .img2{
+        margin-right: 50px;
+        width: 250px;
+        margin-top:20px;
+        
+        }
+        .img3{
+            margin-right: 50px;
+            width: 250px;
+            margin-top:20px;
+        
+        }
+        .img4{
+            margin-top:20px;
+            width: 250px;
+        
+        
+        
+        
+        }
+        .img5{
+            margin-right: 50px;
+            width: 250px;
+            margin-top:20px;
+        
+        }
+        
+        .img6{
+            margin-right: 50px;
+            width: 250px;
+            margin-top:20px;
+        
+        
+        }
+        
+        .img7{
+            margin-right: 50px;
+            width: 250px;
+            margin-top:20px;
+        
+        
+        }
+        .img8{
+          
+            width: 250px;
+            margin-top:20px;
+        }
+        
+        .justcase{
+            background: #515F67;
+            width: 100%;
+            height: -20%;
+            /* border: 1px  solid black; */
+            font-family: 'Segoe UI', 'sans serif';
+            color: white;
+         }
+        
+        
+        .Just{
+        margin-left: 30px;
+        font-size: 25px;
+        margin-top: -35px;
+        }
+        .img9{
+        float: left;
+        /* margin-right: 900px; */
+        width: 50%;
+        margin-top: 30px;
+        margin-left: 29px;
+        margin-bottom: 25px;
+        
+        
+        }
+        
+        
+        span{
+            text-decoration:underline ;
+        
+        }
+        
+        .bear{
+        margin-left:30px ;
+        font-size: 9px;
+        padding-bottom: 20%;
+        padding-right: 5px;
+        
+        }
+        .Visit{
+        color: #39444B;
+            border: 2px solid#39444B;
+           width: 100px;
+           padding-left: 30px;
+        margin-left: 30px;
+        font-size: 17px;
+        margin-top: -90px;
+        
+        }
+        
+        .twitter{
+            background: #4BCAFF;
+            width: 100%;
+             border-bottom: 1px  solid black;
+            font-family: 'Segoe UI', 'sans serif';
+            color: white;
+            margin-left: 
+        
+        }
+        
+        .Twitter{
+        margin-left: 30px;
+        padding-top: 50px ;
+        font-size: 25px;
+        
+        
+        }
+        .logo{
+        margin-left: 25%;
+        margin-top:-43px;
+       
+        
+        
+        
+        
+        }
+        .Text{
+            margin-left: 70px;
+            margin-top: 50px;
+        
+        
+        }
+        
+        .tootsie{
+            margin-top:-43px;
+        margin-left: 169px;
+        
+        
+        }
+         .ALL:hover, .PANORAMA:hover, .PORTRAITS:hover, .MACRO:hover , .JOURNAL:hover{
+            border: 3px solid skyblue;
+            padding: 1px;
+            cursor: pointer;
+        
+        
+        
+        
+         }
+         .Visit:hover{
+            border: 2px solid white;
+           
+            cursor: pointer;
+        
+         }
+
+
+
+
+
+ }

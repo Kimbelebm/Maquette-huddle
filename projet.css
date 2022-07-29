@@ -1,0 +1,264 @@
+body
+{
+    background-color: #FFF7DA;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #181818;
+    font-family: Dayrom, serif;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+section h1, footer h1, nav a
+{
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.bloc{
+
+
+
+
+
+}
+
+#logo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.trait{
+border:   solid rgb(145, 123, 86) 1px ;
+margin-top: -250px;
+opacity: 30%;
+}
+
+.h
+{
+    font-size: 1.3em;
+    margin-top: -35px;
+    font-weight: normal;
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    margin-bottom: 80px;
+    justify-content: end;
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+#san{
+
+    background-image: url(image\Mini projet\images2\sanfrancisco.jpg);
+    background-size: cover;
+    width: 95%;
+    height: 300px;
+    margin:2.5%;
+    display: flex;
+    
+}
+
+
+
+.banniere{
+    border-radius: 0px 0px 5px 5px;
+    width: 100%;
+    height: 33px;
+    background-color: rgba(24,24,24,0.8);
+    color: white;
+    font-size: 0.8em;
+    align-self: flex-end;
+    bottom: 0;
+}    
+    
+    
+.retour{
+    margin-left: 10px;
+}
+
+
+
+
+.boutton{
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    background-color:#830B0E ;
+    float: right;
+    margin-top: -38px;
+    font-family: 'b';
+    background: linear-gradient(0deg, #821A19 ,#A66662 )
+}
+
+@media(max-width:600px){
+
+    header
+{
+    background: url('images/separateur.png') repeat-x bottom;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#titre_principal
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#logo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+#logo img
+{
+    width: 59px;
+    height: 60px;
+}
+.trait{
+border:   solid rgb(145, 123, 86) 1px ;
+margin-top: -250px;
+opacity: 30%;
+
+
+
+
+}
+
+/* header h1
+{
+    font-family: 'BallparkWeiner', serif;
+    font-size: 2.5em;
+    font-weight: normal;
+    margin: 0 0 0 10px;
+} */
+
+.h
+{
+    font-family: 'dayrom', sans-serif;
+    font-size: 1.3em;
+    
+    margin-top: -35px;
+    font-weight: normal;
+   
+}
+
+nav ul
+{
+    font-family: Dayrom, serif;
+    list-style-type: none;
+    display: flex;
+    margin-left: 56%;
+    margin-bottom: 80px;
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+
+
+    
+
+#sanfran{
+    
+    display: flex;
+    justify-content: center;
+
+}
+
+#banniere_image
+{
+    /* margin-top: -px; */
+    height: px;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 5px 5px 5px #1c1a19;
+    width: 98.7vh;
+    opacity: 90%;
+    margin-left: 239px;
+    
+    
+    
+    
+}
+
+#banniere_description
+{
+    position: absolute;
+    bottom: 0;
+    border-radius: 0px 0px 5px 5px;
+    width: 99.5%;
+    height: 33px;
+    padding-top: 15px;
+    padding-left: 4px;
+    background-color: rgba(24,24,24,0.8);
+    color: white;
+    font-size: 0.8em;
+    
+}
+
+.bouton_rouge
+{
+    background-color: #760001;
+    height: 25px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+
+    border: 1px solid #760001;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 3px 8px 0px 8px;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+}
